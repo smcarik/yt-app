@@ -17,7 +17,7 @@ function SearchBar(props) {
     <div className="search-bar ui segment">
       <form className="ui form" onSubmit={onSubmit}>
         <div className="field">
-          <label>Video Search</label>
+          <label>Search for a video</label>
           <input type="text" value={term} onChange={onInputChange} />
         </div>
       </form>
